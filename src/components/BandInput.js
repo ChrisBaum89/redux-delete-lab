@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Bands from "./Bands"
 
 class BandInput extends Component {
   state = {
@@ -27,6 +28,7 @@ class BandInput extends Component {
             onChange={this.handleOnChange}
             value={this.state.name}
             />
+          <input type="submit"/>
         </form>
       </div>
     )
